@@ -16,6 +16,11 @@
     --cor4: #9e8a62;
     --cor5: #f3b645;
     --cor6: #919db771;
+    --cor7: #2C3532;
+    --cor8: #0F6466;
+    --cor9: #D8B08C;
+    --cor10: #FFCB9A;
+    --cor11: #D2E8E3;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Mermaid', cursiva;
@@ -33,7 +38,7 @@ body{
 header{
     min-height: 150px;
     text-align: center;
-    background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
+    background-image: linear-gradient(to bottom, var(--cor9), var(--cor10));
     padding-top: 40px;
     box-shadow: 1px 1px 2px 1.5px rgba(0, 0, 0, 0.616);
 }
@@ -46,7 +51,7 @@ h1#marca{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.295);
     border-radius: 10px;
-    background-color: var(--cor1);
+    background-color: var(--cor7);
     position: relative;
 }
 #logo{
@@ -59,7 +64,7 @@ nav > p{
 }
 nav{
     margin-top: 40px;
-    background-color: var(--cor5);
+    background-color: var(--cor10);
     text-align: right;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
@@ -68,12 +73,12 @@ nav{
 nav > a{
     padding: 0px 15px;
     text-decoration: none;
-    color: var(--cor4);
+    color: var(--cor7);
     font-weight: bolder;
     border-radius: 5px;
 }
 nav > a:hover{
-    color: var(--cor1);
+    color: var(--cor4);
     text-decoration: underline;
     transition-duration: 0.7s;
 }
@@ -99,12 +104,12 @@ main > picture{
     
 }
 article h1{
-    background-image: linear-gradient(to right, var(--cor0), transparent);
+    background-color: var(--cor7);
     padding: 5px;
     font-family: var(--fonte-destaque2);
     font-size: 2em;
     font-weight: lighter;
-    color: var(--cor1);
+    color: var(--cor11);
 }
 article > p{
     text-align: justify;
@@ -113,7 +118,8 @@ article > p{
     line-height: 2em;
 }
 .noticia{
-    background-image: linear-gradient(to bottom, white, var(--cor3));
+    background-image: linear-gradient(to bottom, white, var(--cor11));
+    padding-top: 50px;
 }
 .noticia h2{
     text-align: center;
@@ -134,8 +140,19 @@ article > p{
     
 }
 .noticia img{
+    display:block;
     margin: auto;
 }
+.noticia p{
+    text-align: justify;
+    text-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.267);
+    text-indent: 20px;
+    padding: 10px 10px 5px 10px;
+}
+button a{
+    text-decoration: none;
+}
+
 .artigo{
     background: url('../imagens/ekklesia900.jpg') center bottom no-repeat fixed;
     background-size: cover;
