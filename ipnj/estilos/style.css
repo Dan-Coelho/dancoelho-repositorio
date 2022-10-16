@@ -99,3 +99,7 @@ section#videos{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.582);
     margin: auto;
 }
+#videos iframe{
+    width: 450px;
+    margin: auto;
+}
