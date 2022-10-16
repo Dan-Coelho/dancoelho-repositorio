@@ -25,7 +25,7 @@ body{
     font-family: var(--fontepadrão);
 }
 header{
-    width: 560px;
+    width: 450px;
     margin: auto;
 }
 header div{
@@ -71,7 +71,7 @@ main{
     background-attachment: fixed;
 }
 section#noticia{
-    width: 535px;
+    width: 450px;
     background-color: white;
     padding: 8px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.582);
@@ -93,7 +93,7 @@ section h1{
     padding: 8px;
 }
 section#videos{
-    width: 535px;
+    width: 450px;
     background-color: white;
     padding: 8px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.582);
