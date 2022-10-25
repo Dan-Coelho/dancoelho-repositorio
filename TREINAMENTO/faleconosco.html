@@ -32,51 +32,55 @@
         <form action="contato.php" method="post" autocomplete="off">
             <fieldset>
                 <legend>Dados Pessoais</legend>
-                <p>
-                    <label for="inome">Nome Completo:</label>
-                    <input type="text" name="nome" id="inome" required autocomplete="name" minlength="10" maxlength="30">
-                </p>
-                <p>
-                    <label for="">Sexo:</label>
-                    <input type="radio" name="sexo" id="imas"><label for="imas">Masculino </label>
-                    <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
-                </p>
-                <p>
-                    <label for="iend">Endereço:</label>
-                    <input type="text" name="end" id="iend" required minlength="30" maxlength="50">
-                </p>
-                <p>
-                    <label for="iemail">Email:</label>
-                    <input type="email" name="email" id="iemail" required minlength="15" maxlength="25">
-                </p>
-                <p>
-                    <label for="inasc">Nascimento:</label>
-                    <input type="date" name="nasc" id="inasc">
-                </p>
+                <div class="gerais">
+                  <p>
+                      <label for="inome">Nome Completo:</label>
+                      <input type="text" name="nome" id="inome" required autocomplete="name" minlength="10" maxlength="30">
+                  </p>
+                  <p>
+                      <label for="">Sexo:</label>
+                      <input type="radio" name="sexo" id="imas"><label for="imas">Masculino </label>
+                      <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+                  </p>
+                  <p>
+                      <label for="iend">Endereço:</label>
+                      <input type="text" name="end" id="iend" required minlength="30" maxlength="50">
+                  </p>
+                  <p>
+                      <label for="iemail">Email:</label>
+                      <input type="email" name="email" id="iemail" required minlength="15" maxlength="25">
+                  </p>
+                  <p>
+                      <label for="inasc">Nascimento:</label>
+                      <input type="date" name="nasc" id="inasc">
+                  </p>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questionário</legend>
-                <label for="">Membro da Igreja?</label>
-                <input type="radio" name="membro" id="imembro"><label for="imembro">Sim</label>
-                <input type="radio" name="membro" id="nmembro"><label for="nmembro">Não</label><br>
-                <label for="">Participa de Pequeno Grupo?</label>
-                <input type="radio" name="pg" id="ipg"><label for="ipg">Sim</label>
-                <input type="radio" name="pg" id="npg"><label for="npg">Não</label><br>
-                <label for="ilider">Se sim, qual o nome do líder do PG?</label>
-                <input type="text" name="lider" id="ilider"><br>
-                <label for="">Se não, pretende participar de PG?</label>
-                <input type="radio" name="quero" id="iquero"><label for="iquero">Sim</label>
-                <input type="radio" name="quero" id="nquero"><label for="nquero">Não</label><br>
-                <label for="idia">Qual o dia da semana com disponibilidade?</label><br>
-                <input type="checkbox" name="dia" id="iseg"><label for="iseg">Segunda</label><br>
-                <input type="checkbox" name="dia" id="iter"><label for="iter">Terça</label><br>
-                <input type="checkbox" name="dia" id="iqua"><label for="iqua">Quarta</label><br>
-                <input type="checkbox" name="dia" id="iqui"><label for="iqui">Quinta</label><br>
-                <input type="checkbox" name="dia" id="isex"><label for="isex">Sexta</label><br>
-                <input type="checkbox" name="dia" id="isab"><label for="isab">Sabado</label><br>
-                <input type="checkbox" name="dia" id="idom"><label for="idom">Domingo</label><br>
-                <label for="imsg">Mensagem:</label>
-                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                <div class="gerais">
+                  <label for="">Membro da Igreja?</label>
+                  <input type="radio" name="membro" id="imembro"><label for="imembro">Sim</label>
+                  <input type="radio" name="membro" id="nmembro"><label for="nmembro">Não</label><br>
+                  <label for="">Participa de Pequeno Grupo?</label>
+                  <input type="radio" name="pg" id="ipg"><label for="ipg">Sim</label>
+                  <input type="radio" name="pg" id="npg"><label for="npg">Não</label><br>
+                  <label for="ilider">Se sim, qual o nome do líder do PG?</label>
+                  <input type="text" name="lider" id="ilider"><br>
+                  <label for="">Se não, pretende participar de PG?</label>
+                  <input type="radio" name="quero" id="iquero"><label for="iquero">Sim</label>
+                  <input type="radio" name="quero" id="nquero"><label for="nquero">Não</label><br>
+                  <label for="idia">Qual o dia da semana com disponibilidade para o PG?</label><br>
+                  <input type="checkbox" name="dia" id="iseg"><label for="iseg">Segunda</label><br>
+                  <input type="checkbox" name="dia" id="iter"><label for="iter">Terça</label><br>
+                  <input type="checkbox" name="dia" id="iqua"><label for="iqua">Quarta</label><br>
+                  <input type="checkbox" name="dia" id="iqui"><label for="iqui">Quinta</label><br>
+                  <input type="checkbox" name="dia" id="isex"><label for="isex">Sexta</label><br>
+                  <input type="checkbox" name="dia" id="isab"><label for="isab">Sabado</label><br>
+                  <input type="checkbox" name="dia" id="idom"><label for="idom">Domingo</label><br>
+                  <label for="imsg">Mensagem:</label>
+                  <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                </div>
             </fieldset>
             <p>
                 <input type="submit" value="Enviar">

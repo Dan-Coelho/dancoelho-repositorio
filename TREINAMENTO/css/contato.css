@@ -99,3 +99,19 @@ main{
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px 2px black;
 }
+form > fieldset{
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: var(--cor11);
+    font-variant: small-caps;
+    font-stretch: ultra-expanded;
+}
+div.gerais{
+    display: block;
+    font-weight: lighter;
+    padding: 8px;
+    line-height: 1.5em;
+    margin: 5px 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+    background-color: var(--cor0);
+}
